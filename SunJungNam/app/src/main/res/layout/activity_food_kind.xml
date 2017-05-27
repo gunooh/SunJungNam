@@ -23,7 +23,6 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_margin="10dp"
                 android:text="한식"
                 android:onClick="onClickKoreaFood" />
 
@@ -37,7 +36,6 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_margin="10dp"
                 android:text="양식"
                 android:onClick="onClickWesternFood" />
         </LinearLayout>
@@ -50,7 +48,6 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_margin="10dp"
                 android:text="중식"
                 android:onClick="onClickChineseFood"/>
 
@@ -64,7 +61,6 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_margin="10dp"
                 android:text="기타"
                 android:onClick="onClickEtc"/>
 

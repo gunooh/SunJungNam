@@ -10,24 +10,20 @@ import android.view.Menu;
 public class SplashActivity extends Activity
 {
     @Override
-    public void onCreate(Bundle savedInstanceState)
-    {
+    protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
-        initialize();
-    }
 
-    private void initialize()
-    {
-        Handler handler =    new Handler()
-        {
+        Handler handler = new Handler();
+        handler.postDelayed(new Runnable() {
             @Override
-            public void handleMessage(Message msg)
-            {
-                finish();    // 액티비티 종료
+            public void run() {
+                Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+                startActivity(intent);
+                finish();
             }
-        };
-
-        handler.sendEmptyMessageDelayed(0, 5000);    // ms, 5초후 종료시킴
+        }, 4000);
     }
+
+
 }
