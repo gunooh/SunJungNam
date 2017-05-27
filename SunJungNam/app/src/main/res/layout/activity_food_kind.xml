@@ -21,12 +21,11 @@
             android:layout_weight="1">
 
             <Button
-                android:id="@+id/button2"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="10dp"
                 android:text="한식"
-                android:onClick="onClickSpicy" />
+                android:onClick="onClickKoreaFood" />
 
         </LinearLayout>
 
@@ -87,7 +86,8 @@
             <Button
                 android:layout_width="90dp"
                 android:layout_height="40dp"
-                android:layout_centerVertical="true"
+                android:layout_centerInParent="true"
+                android:layout_alignParentLeft="true"
                 android:text="뒤로" />
 
             <Button
