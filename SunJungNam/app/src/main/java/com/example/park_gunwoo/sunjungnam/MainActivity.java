@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void onClickFood(View v)
     {
-        Intent intent = new Intent(getApplicationContext(), FoodSelect1Activity.class);
+        Intent intent = new Intent(getApplicationContext(), FoodKindActivity.class);
         startActivity(intent);
     }
     public void onClickTravel(View v)
