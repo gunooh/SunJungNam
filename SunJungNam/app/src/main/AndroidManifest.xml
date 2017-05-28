@@ -9,30 +9,22 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
-
         <activity android:name=".SplashActivity">
-
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
         <activity
             android:name=".MainActivity"
-            android:configChanges="orientation|keyboardHidden">
-
-        </activity>
-
+            android:configChanges="orientation|keyboardHidden" />
         <activity android:name=".SelectActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
         </activity>
         <activity android:name=".InputActivity">
-
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
@@ -43,6 +35,42 @@
         <activity android:name=".KoreaRiceOActivity" />
         <activity android:name=".Sullungtang" />
         <activity android:name=".Gukbap" />
+        <activity android:name=".ChineseFoodSelectActivity" />
+        <activity android:name=".ChineseNoodleOActivity" />
+        <activity android:name=".Jjambbong" />
+        <activity android:name=".Jajangmyun" />
+        <activity android:name=".Ulmyun" />
+        <activity android:name=".ChineseNoodleXActivity" />
+        <activity android:name=".Bokumbap" />
+        <activity android:name=".Japchaebap" />
+        <activity android:name=".Tangsuyuk" />
+        <activity android:name=".Palbochae" />
+        <activity android:name=".WesternFoodSelectActivity" />
+        <activity android:name=".Steak" />
+        <activity android:name=".Dongas" />
+        <activity android:name=".Pasta" />
+        <activity android:name=".Spagetti" />
+        <activity android:name=".Bibimbap" />
+        <activity android:name=".Dupbap" />
+        <activity android:name=".KoreaRiceXActivity" />
+        <activity android:name=".Naengmyun" />
+        <activity android:name=".Kalguksu" />
+        <activity android:name=".Bulgogi" />
+        <activity android:name=".Galbijjim" />
+        <activity android:name=".EtcSelectActivity" />
+        <activity android:name=".EtcJapaneseFoodActivity" />
+        <activity android:name=".EtcSnackFoodActivity" />
+        <activity android:name=".Gimbap" />
+        <activity android:name=".Ramyu" />
+        <activity android:name=".Ramyun" />
+        <activity android:name=".Jjolmyun" />
+        <activity android:name=".Ddukbboki" />
+        <activity android:name=".Sundae" />
+        <activity android:name=".Tuigim" />
+        <activity android:name=".Udong" />
+        <activity android:name=".Ramen" />
+        <activity android:name=".Chobap" />
+        <activity android:name=".Sushi"></activity>
     </application>
 
 </manifest>
