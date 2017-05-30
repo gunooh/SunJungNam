@@ -24,7 +24,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:text="고기"
-                android:onClick="onClickRiceO"/>
+                android:onClick="onClickMeatO"/>
 
         </LinearLayout>
 
@@ -37,7 +37,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:text="고기 X"
-                android:onClick="onClickRiceX"/>
+                android:onClick="onClickMeatX"/>
 
         </LinearLayout>
 

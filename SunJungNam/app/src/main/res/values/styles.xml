@@ -17,6 +17,17 @@
     </style>
 
 
+    <style name="Custom1" parent="Base.Theme.AppCompat.Light.DarkActionBar">
+
+        <item name="android:background">#9B3368</item>
+    </style>
+
+    <style name="Custom2" parent="Base.Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#FF9E9D</item>
+
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+
 
 
 

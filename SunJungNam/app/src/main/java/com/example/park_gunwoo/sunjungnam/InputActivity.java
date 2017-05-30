@@ -40,6 +40,10 @@ public class InputActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        getSupportActionBar().setDisplayOptions(android.app.ActionBar.DISPLAY_SHOW_CUSTOM);
+        getSupportActionBar().setCustomView(R.layout.custom_bar);
+
         setContentView(R.layout.activity_input);
 
         ActionBar actionBar = getSupportActionBar();

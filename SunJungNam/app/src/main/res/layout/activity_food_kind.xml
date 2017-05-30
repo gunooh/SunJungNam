@@ -21,6 +21,7 @@
             android:layout_weight="1">
 
             <Button
+                android:id="@+id/button2"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:text="한식"
@@ -38,6 +39,7 @@
                 android:layout_height="match_parent"
                 android:text="양식"
                 android:onClick="onClickWesternFood" />
+
         </LinearLayout>
 
         <LinearLayout

@@ -1,5 +1,6 @@
 package com.example.park_gunwoo.sunjungnam;
 
+import android.app.ActionBar;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.support.v7.app.AlertDialog;
@@ -14,6 +15,10 @@ public class ChoiceActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        getSupportActionBar().setDisplayOptions(ActionBar.DISPLAY_SHOW_CUSTOM);
+        getSupportActionBar().setCustomView(R.layout.custom_bar);
+
         setContentView(R.layout.activity_choice);
 
         Intent intent = getIntent();
@@ -23,7 +28,7 @@ public class ChoiceActivity extends AppCompatActivity {
         AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(this);
 
         // 제목셋팅
-        alertDialogBuilder.setTitle("Alert");
+        alertDialogBuilder.setTitle("선택 결과");
 
         // AlertDialog 셋팅
         alertDialogBuilder

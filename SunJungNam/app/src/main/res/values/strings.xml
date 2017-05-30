@@ -1,4 +1,5 @@
 <resources>
-    <string name="app_name">너의 선택은</string>
+    <string name="app_name">Your Choice</string>
+    <string name="title_activity_google_maps">Map</string>
 
 </resources>
