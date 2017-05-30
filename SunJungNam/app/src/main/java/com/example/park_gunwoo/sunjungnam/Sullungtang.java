@@ -26,7 +26,7 @@ public class Sullungtang extends AppCompatActivity {
 
     public void onClickSearch(View v)
     {
-        Intent intent = new Intent(getApplicationContext(), MapViewActivity.class);
+        Intent intent = new Intent(getApplicationContext(), GoogleMapsActivity.class);
         startActivity(intent);
     }
 }

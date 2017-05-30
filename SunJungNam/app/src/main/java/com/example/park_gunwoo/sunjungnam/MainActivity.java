@@ -34,11 +34,13 @@ public class MainActivity extends AppCompatActivity {
     }
     public void onClickTravel(View v)
     {
-
+        Intent intent = new Intent(getApplicationContext(), ComingSoonActivity.class);
+        startActivity(intent);
     }
     public void onClickMovie(View v)
     {
-
+        Intent intent = new Intent(getApplicationContext(), ComingSoonActivity.class);
+        startActivity(intent);
     }
     public void onClickInput(View v)
     {
