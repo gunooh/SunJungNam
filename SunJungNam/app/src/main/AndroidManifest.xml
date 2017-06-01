@@ -97,7 +97,7 @@
         <activity
             android:name=".GoogleMapsActivity"
             android:label="Map" />
-        <activity android:name=".ComingSoonActivity"></activity>
+        <activity android:name=".ComingSoonActivity" />
     </application>
 
 </manifest>
