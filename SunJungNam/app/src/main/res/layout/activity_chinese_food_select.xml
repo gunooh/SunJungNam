@@ -23,8 +23,8 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="면"
-                android:onClick="onClickNoodleO"/>
+                android:onClick="onClickNoodleO"
+                android:background="@drawable/noodleo"/>
 
         </LinearLayout>
 
@@ -36,8 +36,8 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="면 X"
-                android:onClick="onClickNoodleX"/>
+                android:onClick="onClickNoodleX"
+                android:background="@drawable/noodlex"/>
 
         </LinearLayout>
 

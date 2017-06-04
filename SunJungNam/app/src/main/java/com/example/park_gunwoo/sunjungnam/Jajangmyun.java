@@ -26,6 +26,7 @@ public class Jajangmyun extends AppCompatActivity {
 
     public void onClickSearch(View v)
     {
-
+        Intent intent = new Intent(getApplicationContext(), ChineseGoogleMapsActivity.class);
+        startActivity(intent);
     }
 }

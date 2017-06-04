@@ -26,6 +26,7 @@ public class Steak extends AppCompatActivity {
 
     public void onClickSearch(View v)
     {
-
+        Intent intent = new Intent(getApplicationContext(), WesternGoogleMapsActivity.class);
+        startActivity(intent);
     }
 }

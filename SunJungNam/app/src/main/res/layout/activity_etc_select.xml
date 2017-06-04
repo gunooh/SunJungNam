@@ -23,8 +23,8 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="일식"
-                android:onClick="onClickJapaneseFood"/>
+                android:onClick="onClickJapaneseFood"
+                android:background="@drawable/japanesefood" />
 
         </LinearLayout>
 
@@ -36,8 +36,8 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="분식"
-                android:onClick="onClickSnackFood"/>
+                android:onClick="onClickSnackFood"
+                android:background="@drawable/snackfood" />
 
         </LinearLayout>
 

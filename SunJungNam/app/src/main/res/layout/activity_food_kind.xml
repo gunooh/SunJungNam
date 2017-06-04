@@ -24,8 +24,8 @@
                 android:id="@+id/button2"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="한식"
-                android:onClick="onClickKoreaFood" />
+                android:onClick="onClickKoreaFood"
+                android:background="@drawable/koreanfood"/>
 
         </LinearLayout>
 
@@ -37,8 +37,8 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="양식"
-                android:onClick="onClickWesternFood" />
+                android:onClick="onClickWesternFood"
+                android:background="@drawable/westernfood"/>
 
         </LinearLayout>
 
@@ -50,8 +50,8 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="중식"
-                android:onClick="onClickChineseFood"/>
+                android:onClick="onClickChineseFood"
+                android:background="@drawable/chinesefood" />
 
         </LinearLayout>
 
@@ -63,8 +63,8 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="기타"
-                android:onClick="onClickEtc"/>
+                android:onClick="onClickEtc"
+                android:background="@drawable/etc"/>
 
         </LinearLayout>
 

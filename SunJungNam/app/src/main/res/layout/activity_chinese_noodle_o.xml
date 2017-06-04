@@ -23,8 +23,8 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="매운거"
-                android:onClick="onClickSpicy"/>
+                android:onClick="onClickSpicy"
+                android:background="@drawable/spicyo" />
 
         </LinearLayout>
 
@@ -36,8 +36,8 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="안매운거"
-                android:onClick="onClickNoSpicy"/>
+                android:onClick="onClickNoSpicy"
+                android:background="@drawable/spicyx" />
 
         </LinearLayout>
 

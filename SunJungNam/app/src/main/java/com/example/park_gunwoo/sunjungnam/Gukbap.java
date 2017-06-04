@@ -26,7 +26,7 @@ public class Gukbap extends AppCompatActivity {
 
     public void onClickSearch(View v)
     {
-        Intent intent = new Intent(getApplicationContext(), MapActivity.class);
+        Intent intent = new Intent(getApplicationContext(), KoreaGoogleMapsActivity.class);
         startActivity(intent);
     }
 }

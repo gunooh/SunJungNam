@@ -26,6 +26,7 @@ public class Tuigim extends AppCompatActivity {
 
     public void onClickSearch(View v)
     {
-
+        Intent intent = new Intent(getApplicationContext(), SnackGoogleMapsActivity.class);
+        startActivity(intent);
     }
 }

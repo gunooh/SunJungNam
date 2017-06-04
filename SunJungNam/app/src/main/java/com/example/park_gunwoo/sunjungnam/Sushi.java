@@ -26,6 +26,7 @@ public class Sushi extends AppCompatActivity {
 
     public void onClickSearch(View v)
     {
-
+        Intent intent = new Intent(getApplicationContext(), JapaneseGoogleMapsActivity.class);
+        startActivity(intent);
     }
 }

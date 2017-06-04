@@ -26,6 +26,7 @@ public class Galbijjim extends AppCompatActivity {
 
     public void onClickSearch(View v)
     {
-
+        Intent intent = new Intent(getApplicationContext(), KoreaGoogleMapsActivity.class);
+        startActivity(intent);
     }
 }

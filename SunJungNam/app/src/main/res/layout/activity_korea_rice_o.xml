@@ -23,8 +23,8 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="국물 O"
-                android:onClick="onClickSoupO" />
+                android:onClick="onClickSoupO"
+                android:background="@drawable/soupo"/>
 
         </LinearLayout>
 
@@ -36,8 +36,8 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="국물 X"
                 android:onClick="onClickSoupX"
+                android:background="@drawable/soupx"
 
                 />
 

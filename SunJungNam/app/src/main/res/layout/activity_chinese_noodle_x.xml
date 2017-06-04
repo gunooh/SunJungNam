@@ -23,8 +23,8 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="쌀 O"
-                android:onClick="onClickRiceO"/>
+                android:onClick="onClickRiceO"
+                android:background="@drawable/riceo"/>
 
         </LinearLayout>
 
@@ -36,8 +36,8 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="쌀 X"
-                android:onClick="onClickRiceX"/>
+                android:onClick="onClickRiceX"
+                android:background="@drawable/ricex" />
 
         </LinearLayout>
 

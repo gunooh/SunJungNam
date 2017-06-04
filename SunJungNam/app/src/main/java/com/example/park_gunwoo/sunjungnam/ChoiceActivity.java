@@ -34,7 +34,7 @@ public class ChoiceActivity extends AppCompatActivity {
         alertDialogBuilder
                 .setMessage(choice)
                 .setCancelable(false)
-                .setPositiveButton("종료",
+                .setPositiveButton("닫기",
                         new DialogInterface.OnClickListener() {
                             public void onClick(
                                     DialogInterface dialog, int id) {
@@ -42,12 +42,14 @@ public class ChoiceActivity extends AppCompatActivity {
                                 ChoiceActivity.this.finish();
                             }
                         })
-                .setNegativeButton("근처 맛집찾기",
+                .setNegativeButton("관련 장소 찾기",
                         new DialogInterface.OnClickListener() {
                             public void onClick(
                                     DialogInterface dialog, int id) {
-                                // 다이얼로그를 취소한다
-                                dialog.cancel();
+
+                                Intent intent = new Intent(getApplicationContext(), MapActivity.class);
+                                startActivity(intent);
+
                             }
                         });
 
